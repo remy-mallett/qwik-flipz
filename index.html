@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REMY MALLETT // QWIK FLIPZ</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #33ff33;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .track-row {
+            margin-bottom: 24px;
+            padding-left: 2px;
+        }
+        .track-header {
+            font-weight: bold;
+            color: #33ff33;
+        }
+        .track-desc {
+            color: #22c822;
+            padding-left: 8px;
+            margin-top: 4px;
+            margin-bottom: 8px;
+        }
+        .console-box {
+            background-color: #001100;
+            border: 1px dashed #33ff33;
+            padding: 8px 12px;
+            margin-top: 6px;
+            display: inline-block;
+        }
+        .btn {
+            color: #000;
+            background-color: #33ff33;
+            text-decoration: none;
+            padding: 2px 8px;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            display: inline-block;
+            border: none;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 13px;
+        }
+        .btn:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        .btn-stop {
+            background-color: #003300;
+            color: #33ff33;
+            border: 1px solid #33ff33;
+            margin-left: 6px;
+        }
+        .btn-stop:hover {
+            background-color: #ff3333;
+            color: #000;
+            border-color: #ff3333;
+        }
+        .btn-dl {
+            background-color: #000;
+            color: #33ff33;
+            border: 1px dashed #33ff33;
+            margin-left: 12px;
+        }
+        .btn-dl:hover {
+            background-color: #33ff33;
+            color: #000;
+        }
+        .status-txt {
+            display: inline-block;
+            margin-left: 12px;
+            font-size: 12px;
+            color: #88ff88;
+            min-width: 120px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+ __________________________________________________________________________
+
+|                                                                          |
+|    ___  _    _ ___ _  __    _____ _     ___ ____ ______                  |
+|   / _ \| |  | |_ _| |/ /   |  ___| |   |_ _|  _ \___  /                  |
+|  | | | | |  | | | | ' /    | |_  | |    | || |_) | / /                   |
+|  | |_| | |/\| | | | . \    |  _| | |___ | ||  __/ / /_                   |
+|   \__\_\\_/\_/ ___|_|\_\   |_|   |_____|___|_|   /____|                  |
+|                                                                          |
+|==========================================================================|
+|  [CREATOR..: REMY MALLETT]         [WORKFLOW: 90S RACK GEAR / SAMPLING]  |
+|  [CONDITION: UNRELEASED ROUGH]     [CONTENTS: RAW UNCOMPRESSED .WAVS]    |
+|__________________________________________________________________________|
+
+ [²]------------------ ->>  s Y s T e M   n O t I c E  <<- ----------------[²]
+    YOU HAVE UNLOCKED REMY'S QWIK FLIPZ SOURCE PACK // KEEP IT UNDERGROUND
+ ____________________________________________________________________________
+ ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+ [ 1nF0 / b L u R b ] 
+ ----------------------------------------------------------------------------
+  Just 4 fun. Practicin sum qwik flipz n composin over da top.
+  I cre8 n bounz an idea ina day. Workin qwik n smashin it out 
+  keeps da crea8ity flowin. I like 2 commit all da sinf parts from 
+  my 90s rack gear early, so I can move on.
+
+ [ t R a C k L i S t ]
+ ----------------------------------------------------------------------------
+  <div class="track-row">
+  <span class="track-header">01 :: Sunset First Quick Bounce</span>
+  <div class="track-desc">[+] Found a short sample of horn, piano, guitar from an intro of a 
+      track, chopt it n flipt it. Cut da bass. Added a new 1 wiv 
+      me 73 jaz. Den added E Piano, Sinfs and Twinkz. 1 foot 
+      in smooth soul, 1 foot in Jap Pop. Pretty groovy.</div>
+  <div class="console-box">
+    <button class="btn" onclick="playTrack('audio1', 'status1')">► PLAY</button><button class="btn btn-stop" onclick="stopTrack('audio1', 'status1')">■ STOP</button><a class="btn btn-dl" href="https://github.com" download>[⇩ DOWNLOAD .WAV]</a><span id="status1" class="status-txt">[AUDIO: IDLE]</span>
+  </div>
+  <audio id="audio1" src="https://github.com" crossorigin="anonymous" onended="trackEnded('status1')"></audio>
+  </div>
+
+  <div class="track-row">
+  <span class="track-header">02 :: Windy Initial Idea 1</span>
+  <div class="track-desc">[+] Flipped a couple 70's records: one 4 drums, one 4 perc. 
+      Massaged dem. Added sum Organ, Bass, Guitar n Twinkles.</div>
+  <div class="console-box">
+    <button class="btn" onclick="playTrack('audio2', 'status2')">► PLAY</button><button class="btn btn-stop" onclick="stopTrack('audio2', 'status2')">■ STOP</button><a class="btn btn-dl" href="https://github.com" download>[⇩ DOWNLOAD .WAV]</a><span id="status2" class="status-txt">[AUDIO: IDLE]</span>
+  </div>
+  <audio id="audio2" src="https://github.com" crossorigin="anonymous" onended="trackEnded('status2')"></audio>
+  </div>
+
+  <div class="track-row">
+  <span class="track-header">03 :: Cheeky Groove Rough Bounce 2</span>
+  <div class="track-desc">[+] Saw dis cool groove by drumma Joao Taborda on IG. Great 
+      drumma. So I grabd a lil bit (with his perms) n 
+      flipt it into dis lil comp. Added sum TX81Z organ, 
+      wobbly bass, n bitz n pieces. Delay wiv a RE201 
+      plugin, luv it.</div>
+  <div class="console-box">
+    <button class="btn" onclick="playTrack('audio3', 'status3')">► PLAY</button><button class="btn btn-stop" onclick="stopTrack('audio3', 'status3')">■ STOP</button><a class="btn" href="https://github.com" download>[⇩ DOWNLOAD .WAV]</a><span id="status3" class="status-txt">[AUDIO: IDLE]</span>
+  </div>
+  <audio id="audio3" src="https://github.com" crossorigin="anonymous" onended="trackEnded('status3')"></audio>
+  </div>
+
+  <div class="track-row">
+  <span class="track-header">04 :: Bullet 2 Kyoto Rough Arrangement 5</span>
+  <div class="track-desc">[+] Inspired by takin da bullet train across Japan. Couple rare 
+      Japanese samples, flipt, den added drumz, 
+      bass, n all da glorious 90's sinfs, den sum field recordings
+      from trains.</div>
+  <div class="console-box">
+    <button class="btn" onclick="playTrack('audio4', 'status4')">► PLAY</button><button class="btn btn-stop" onclick="stopTrack('audio4', 'status4')">■ STOP</button><a class="btn btn-dl" href="https://github.com" download>[⇩ DOWNLOAD .WAV]</a><span id="status4" class="status-txt">[AUDIO: IDLE]</span>
+  </div>
+  <audio id="audio4" src="https://github.com" crossorigin="anonymous" onended="trackEnded('status4')"></audio>
+  </div>
+ 
+ [ r U l E z / l I c E n S e ]
+ ----------------------------------------------------------------------------
+  [-] SHARE OR DIE: Pass dis folder straight 2 other producers.
+  [-] RESPECT.....: Give proper credit 2 REMY MALLETT if u lay vocals/sample.
+  [-] NO CRAP.....: Do NOT transcode 2 trash MP3. Keep dem WAV masters raw.
+
+ [ g R e E t Z / c O n N e C t ]
+ ----------------------------------------------------------------------------
+  BBS // ://instagram.com
+ ____________________________________________________________________________
+ ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+    >> EOF - END OF FILE // DO NOT DISTRIBUTE TO COMMERCIAL STREAMS <<
+</div>
+
+<script>
+    function playTrack(audioId, statusId) {
+        const audios = document.getElementsByTagName('audio');
+        for (let i = 0; i < audios.length; i++) {
+            audios[i].pause();
+        }
+        const statuses = document.getElementsByClassName('status-txt');
+        for (let i = 0; i < statuses.length; i++) {
+            statuses[i].innerText = '[AUDIO: IDLE]';
+        }
+
+        const currentTrack = document.getElementById(audioId);
+        const currentStatus = document.getElementById(statusId);
+        
+        currentStatus.innerText = '[AUDIO: STREAMING...]';
+        currentTrack.currentTime = 0;
+        currentTrack.play().catch(err => {
+            currentStatus.innerText = '[ERROR LOADING]';
+            console.log("Playback failed:", err);
+        });
+    }
+
+    function stopTrack(audioId, statusId) {
+        document.getElementById(audioId).pause();
+        document.getElementById(statusId).innerText = '[AUDIO: STOPPED]';
+    }
+
+    function trackEnded(statusId) {
+        document.getElementById(statusId).innerText = '[AUDIO: FINISHED]';
+    }
+</script>
+</body>
+</html>
